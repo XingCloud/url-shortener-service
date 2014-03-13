@@ -13,6 +13,8 @@ env="production"
 # Java binary
 java_bin=/usr/java/jdk1.7.0_45/
 
+export JAVA_HOME=${java_bin}
+
 if [ "" = "$1" ];then
   tport=18080
   tomcat_home=/home/hadoop/catalina/apache.tomcat.te
