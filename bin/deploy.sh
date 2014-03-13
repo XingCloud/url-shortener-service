@@ -15,11 +15,11 @@ java_bin=/usr/java/jdk1.7.0_45/
 
 if [ "" = "$1" ];then
   tport=18080
-  tomcat_home=/home/hadoop/catalina/apache-tomcat-7.0.52.te
+  tomcat_home=/home/hadoop/catalina/apache.tomcat.te
 else
   echo "User defined tomcat port found($1)"
   tport=$1
-  tomcat_home=/home/hadoop/catalina/apache-tomcat-7.0.52.mi
+  tomcat_home=/home/hadoop/catalina/apache.tomcat.ur
 fi
 
 if [ "" = "$2" ];then
