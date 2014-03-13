@@ -31,6 +31,7 @@ else
   branch=$2
 fi
 
+
 echo "[CHECK-POINT] - Begin deploying data driller web interface."
 echo ${line}
 echo "[CODE-HOME] - "${code_home}
